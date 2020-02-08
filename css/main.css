@@ -25,11 +25,6 @@ html {
   width: 100%;
 }
 
-img {
-  overflow: hidden;
-  max-height: 500px;
-}
-
 .banner {
   display: flex;
   position: relative;
@@ -37,6 +32,8 @@ img {
   align-items: flex-end;
   bottom: auto;
   left: auto;
+  overflow: hidden;
+  max-height: 500px;
 }
 
 .banner-content {
